@@ -45,7 +45,7 @@ true != true
     Hint: use some string methods
 */
 
-/*let numString = prompt("Enter a string of numbers separated by commas: ")
+let numString = prompt("Enter a string of numbers separated by commas: ")
 let numArray = numString.split(",")
 
 let sum = 0
@@ -53,7 +53,7 @@ for (let i = 0; i < numArray.length; i++) {
     sum += parseInt(numArray[i])
 }
 
-console.log(sum)*/
+console.log(sum)
 
 /**
  * Exercise 3 : Find Nemo
@@ -66,7 +66,7 @@ console.log(sum)*/
     If you can’t find Nemo, console.log “I can’t find Nemo”.
  */
 
-/*let sentence = prompt("Give a sentence containing the word Nemo : ")
+let sentence = prompt("Give a sentence containing the word Nemo : ")
 let position = sentence.indexOf("Nemo")
 console.log(`I found Nemo at ${position}`)
 
@@ -74,7 +74,7 @@ if(position >= 0) {
     console.log(`I found Nemo at ${position}`)
 } else {
     console.log("I can’t find Nemo")
-}*/
+}
 
 /**
  * Exercise 4 : Boom
